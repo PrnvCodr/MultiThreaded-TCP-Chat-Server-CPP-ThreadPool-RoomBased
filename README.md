@@ -1,7 +1,9 @@
 # High-Performance Multi-Threaded Chat Server v2.0
 
 A highly optimized, low-latency multi-threaded chat server built in C++ for **Windows** using:
-![Demo Screenshot](demo_screenshot.png)
+
+<img width="1767" height="981" alt="demo_screenshot" src="https://github.com/user-attachments/assets/f3dc7ddf-26a8-454f-b04a-c33606e73d4b" />
+
 - **IOCP (I/O Completion Ports)** - Windows' most efficient async I/O mechanism
 - **Thread Pool** - Fixed worker threads to prevent thread thrashing
 - **Task Queue** - Events are queued and processed by idle workers
